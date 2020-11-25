@@ -7,6 +7,7 @@
 - Navigate to the folder where you downloaded the VR project
 - Select the folder and press OK
 - Wait for Unity to set up the project
+- Game should be started with "Menu" scene
 
 ## Input Needed:
 - Oculus Rift S headset
