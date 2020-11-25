@@ -19,10 +19,10 @@ TagManager:
   - ground_ForPortal
   - ceiling_ForPortal
   - portal
-  - 
-  - 
-  - 
-  - 
+  - character
+  - hand
+  - key
+  - grab
   - 
   - 
   - 

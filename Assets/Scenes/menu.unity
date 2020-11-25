@@ -373,7 +373,7 @@ GameObject:
   - component: {fileID: 97876784}
   - component: {fileID: 97876783}
   m_Layer: 0
-  m_Name: level_teleporter
+  m_Name: JumpToSecondLevel
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -412,7 +412,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 97876782}
   m_LocalRotation: {x: 0, y: 0.7071068, z: 0, w: 0.7071068}
-  m_LocalPosition: {x: -17.872, y: 0.5, z: -0.073}
+  m_LocalPosition: {x: -18.002, y: 0.5, z: -0.073}
   m_LocalScale: {x: 0.5, y: 0.5, z: 0.27343}
   m_Children: []
   m_Father: {fileID: 0}
@@ -5751,7 +5751,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: -180, z: 0}
   m_AnchorMin: {x: 0, y: 0}
   m_AnchorMax: {x: 0, y: 0}
-  m_AnchoredPosition: {x: -11.285, y: 1.77}
+  m_AnchoredPosition: {x: -11.878, y: 1.77}
   m_SizeDelta: {x: 965.25684, y: 538}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!1 &395978294
@@ -10916,7 +10916,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: Level design, protal gun mechanics
+  m_Text: Level design, portal gun mechanics
 --- !u!222 &646499434
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -16206,7 +16206,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 469060, guid: 4320c530d5a8f3848b8aa719440f9b61, type: 3}
       propertyPath: m_LocalPosition.x
-      value: -11.361
+      value: -11.954
       objectReference: {fileID: 0}
     - target: {fileID: 469060, guid: 4320c530d5a8f3848b8aa719440f9b61, type: 3}
       propertyPath: m_LocalPosition.y
@@ -17039,7 +17039,7 @@ MeshRenderer:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1772187906}
-  m_Enabled: 1
+  m_Enabled: 0
   m_CastShadows: 1
   m_ReceiveShadows: 1
   m_DynamicOccludee: 1
@@ -26949,6 +26949,64 @@ Transform:
   m_Father: {fileID: 1666099833}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &2093291175
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 2093291178}
+  - component: {fileID: 2093291177}
+  - component: {fileID: 2093291176}
+  m_Layer: 0
+  m_Name: TestLevel
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!114 &2093291176
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2093291175}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b67d0f448d7b2c34db9daac93608e731, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  scene: VRTest
+--- !u!65 &2093291177
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2093291175}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 1
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 3.7261262, y: 2.3182015, z: 1.1753881}
+  m_Center: {x: -0.037881475, y: 0.5714066, z: 0}
+--- !u!4 &2093291178
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2093291175}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1.0000001}
+  m_LocalPosition: {x: -15.137, y: 1.0239, z: 4.2}
+  m_LocalScale: {x: 1.9952, y: 1.576231, z: 0.27343}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 7
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &2112177921
 GameObject:
   m_ObjectHideFlags: 0
@@ -27020,7 +27078,7 @@ MonoBehaviour:
     m_LineSpacing: 1
   m_Text: 'Requires:
 
-    Oculus Rift 2
+    Oculus Rift S
 
 '
 --- !u!222 &2112177924

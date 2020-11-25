@@ -36,7 +36,7 @@ public class gun : MonoBehaviour
     }
 
 
-    void shootPortal(bool isFirst)
+    public void shootPortal(bool isFirst)
     {
         if (Physics.Raycast(gunFirePos.position, gunFirePos.forward, out raycastHit))
         {

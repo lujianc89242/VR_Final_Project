@@ -17,6 +17,9 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Scenes/firstLevel.unity
     guid: eb6c6c89b4fac864dbbeed9791723dc0
+  - enabled: 1
+    path: Assets/Scenes/VRTest.unity
+    guid: aea99e38df2f17f4087fd8f9b42d6ef4
   m_configObjects:
     Unity.XR.Oculus.Settings: {fileID: 11400000, guid: 6c7cbf635afd2974fa3cf327d665187d,
       type: 2}
