@@ -33,7 +33,7 @@
 ## Controls (Oculus Test Level):
 - Left controller stick: movement
 - Grab on both controller: grab
-- Trigger: fire portal when gun grabbed
+- Right Trigger: fire portal when gun grabbed
 
 
 ## Objectives:
