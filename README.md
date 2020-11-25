@@ -12,11 +12,11 @@
 ## Input Needed:
 - Oculus Rift S headset
 - Playstation 4 Controller (must be plugged into your computer)
-- Keyboard (optional if you don't have a PS4 controller)
+- Keyboard + Mouse (optional if you don't have a PS4 controller)
 - Oculus Rift S headset & controller (required for "Oculus Test Level")
 
 ## Controls (PS4):
-- Left stick: movement
+- Left Stick: movement
 - Square: jump
 - X (hold): sprint
 - L1: grab objects
